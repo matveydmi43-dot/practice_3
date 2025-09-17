@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+form {
+  width: 320px;
+  margin: 40px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+h2 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 3px;
+}
+
+fieldset {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.buttons input {
+  margin: 0 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
