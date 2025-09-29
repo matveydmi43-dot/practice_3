@@ -10,42 +10,61 @@
   <form>
     <h2>Novell Services Login</h2>
 
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username">
+    <table>
+      <tr>
+        <td><label for="username">Username:</label></td>
+        <td><input type="text" id="username" name="username"></td>
+      </tr>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password">
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password"></td>
+      </tr>
 
-    <label for="city">City of Employment:</label>
-    <input type="text" id="city" name="city">
+      <tr>
+        <td><label for="city">City of Employment:</label></td>
+        <td><input type="text" id="city" name="city"></td>
+      </tr>
 
-    <label for="server">Web server:</label>
-    <select id="server" name="server">
-      <option value="">— Choose a server —</option>
-      <option>Server 1</option>
-      <option>Server 2</option>
-      <option>Server 3</option>
-    </select>
+      <tr>
+        <td><label for="server">Web server:</label></td>
+        <td>
+          <select id="server" name="server">
+            <option value="">— Choose a server —</option>
+            <option>Server 1</option>
+            <option>Server 2</option>
+            <option>Server 3</option>
+          </select>
+        </td>
+      </tr>
 
-    <fieldset class="role">
-      <legend>Please specify your role:</legend>
-      <label><input type="radio" name="role" value="Admin"> Admin</label>
-      <label><input type="radio" name="role" value="Engineer"> Engineer</label>
-      <label><input type="radio" name="role" value="Manager"> Manager</label>
-      <label><input type="radio" name="role" value="Guest"> Guest</label>
-    </fieldset>
+      <tr>
+        <td valign="top">Please specify your role:</td>
+        <td>
+          <label><input type="radio" name="role" value="Admin"> Admin</label><br>
+          <label><input type="radio" name="role" value="Engineer"> Engineer</label><br>
+          <label><input type="radio" name="role" value="Manager"> Manager</label><br>
+          <label><input type="radio" name="role" value="Guest"> Guest</label>
+        </td>
+      </tr>
 
-    <fieldset class="single-sign">
-      <legend>Single Sign-on to the following:</legend>
-      <label><input type="checkbox" name="mail"> Mail</label>
-      <label><input type="checkbox" name="payroll"> Payroll</label>
-      <label><input type="checkbox" name="selfservice"> Self-service</label>
-    </fieldset>
+      <tr>
+        <td valign="top">Single Sign-on to the following:</td>
+        <td>
+          <label><input type="checkbox" name="mail"> Mail</label><br>
+          <label><input type="checkbox" name="payroll"> Payroll</label><br>
+          <label><input type="checkbox" name="selfservice"> Self-service</label>
+        </td>
+      </tr>
 
-    <div class="buttons">
-      <input type="submit" value="Login">
-      <input type="reset" value="Reset">
-    </div>
+      <tr>
+        <td></td>
+        <td>
+          <input type="submit" value="Login">
+          <input type="reset" value="Reset">
+        </td>
+      </tr>
+    </table>
   </form>
 </body>
 </html>
